@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+
+ background-color: #121210; 
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+
+article#background h2 {
+  color: #20899e;
+
+  text-align: center;
+}
+
+article#accomplishment h2 {
+  color: #20899e;
+  text-align: center;
+ 
+}
+
+article#funfact h2 {
+  text-align: center;
+  color: #20899e; 
+
+}
+
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+ border: 2px;
+  margin: 25px 50px 75px 100px;
+}
+
+img {
+  border: 5px solid #3f666e;
+}
+
+img {
+  float: right;
+}
+
+nav {
+   font-size: 0.8em;
+}
+
+nav {
+  line-height: 2em;
+  list-style-type: none;
+  padding-left: 100px;
+
+} 
+
+footer {
+  font-size: 1em;
+  text-align: center;
+
+}
